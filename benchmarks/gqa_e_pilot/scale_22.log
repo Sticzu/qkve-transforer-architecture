@@ -1,0 +1,2 @@
+{"task": "wiki", "seed": 22, "variant": "scaled_matched", "params": 1029184, "wall_seconds_with_validation": 48.40144644599991, "nll": 6.099668696522713, "ppl": 445.71008031932996, "token_accuracy": 0.0762939453125, "teacher_forced_exact": 0.0, "target_tokens": 16384}
+{"task": "books", "seed": 22, "variant": "scaled_matched", "params": 1029184, "wall_seconds_with_validation": 52.47270573900005, "nll": 5.472481608390808, "ppl": 238.0502077582949, "token_accuracy": 0.11639404296875, "teacher_forced_exact": 0.0, "target_tokens": 16384}

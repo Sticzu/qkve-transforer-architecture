@@ -1,0 +1,10 @@
+{
+  "source_archive": "gqa_E_polskie_benchmarki.zip",
+  "source_archive_sha256": "5a6f2a2bd68fafd6b833f907d1b90ad9b2525abe2eb5a1995d87d4222542ebe0",
+  "original_archive_prefix": "gqa_e_benchmark/",
+  "repository_directory": "benchmarks/gqa_e_pilot/",
+  "imported_files": 101,
+  "verified_original_manifest_entries": 100,
+  "original_files_modified": false,
+  "new_training_runs_performed": false
+}

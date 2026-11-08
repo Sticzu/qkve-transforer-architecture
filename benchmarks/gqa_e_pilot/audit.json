@@ -1,0 +1,36 @@
+{
+  "wiki": {
+    "documents": {
+      "train": 3994,
+      "val": 527,
+      "test": 479
+    },
+    "exact_overlap_between_splits": false
+  },
+  "books": {
+    "documents": {
+      "train": 6,
+      "val": 1,
+      "test": 2
+    },
+    "exact_overlap_between_splits": false
+  },
+  "recall": {
+    "exact_overlap_between_sampled_splits": false,
+    "unique_sample_sizes": [
+      3000,
+      2998,
+      2999
+    ]
+  },
+  "reverse": {
+    "exact_overlap_between_sampled_splits": false,
+    "unique_sample_sizes": [
+      2512,
+      989,
+      933
+    ]
+  },
+  "tokenizer_sha256": "d97c7adb915d625b24371dc102d532bcbcfd1d7822574d6761f6894809073712",
+  "polish_tokenizer_roundtrip": true
+}

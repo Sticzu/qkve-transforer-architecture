@@ -1,0 +1,8 @@
+{
+  "wiki_train": 5331243,
+  "wiki_val": 687042,
+  "wiki_test": 629888,
+  "books_train": 893015,
+  "books_val": 16342,
+  "books_test": 245129
+}

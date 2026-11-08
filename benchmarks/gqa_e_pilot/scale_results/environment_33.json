@@ -1,0 +1,21 @@
+{
+  "torch": "2.15.0+cpu",
+  "python": "3.12.14",
+  "cuda": false,
+  "threads": 1,
+  "args": {
+    "tasks": "wiki,books",
+    "variants": "scaled_matched",
+    "seeds": "33",
+    "steps_synth": 250,
+    "steps_real": 600,
+    "batch": 8,
+    "seq": 64,
+    "threads": 1,
+    "lr": 0.002,
+    "eval_batches": 8,
+    "test_batches": 32,
+    "out": "scale_results",
+    "checkpoints": false
+  }
+}

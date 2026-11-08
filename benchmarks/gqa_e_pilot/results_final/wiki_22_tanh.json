@@ -1,0 +1,94 @@
+{
+  "task": "wiki",
+  "seed": 22,
+  "variant": "tanh",
+  "params": 1029184,
+  "steps": 600,
+  "supervised_tokens": 307200,
+  "input_positions": 307200,
+  "wall_seconds_with_validation": 43.137373616000104,
+  "max_gradient_norm": 2.9978487491607666,
+  "clipped_steps": 147,
+  "gate_diagnostics": [
+    {
+      "mean": -0.001280123949982226,
+      "std": 0.2089877426624298,
+      "negative_fraction": 0.499847412109375,
+      "near_zero_fraction": 0.1873779296875,
+      "tanh_saturated_fraction": 0.0
+    },
+    {
+      "mean": -0.008955974131822586,
+      "std": 0.4239627420902252,
+      "negative_fraction": 0.509613037109375,
+      "near_zero_fraction": 0.082733154296875,
+      "tanh_saturated_fraction": 0.004119873046875
+    },
+    {
+      "mean": 0.03566647693514824,
+      "std": 0.4947311282157898,
+      "negative_fraction": 0.4658203125,
+      "near_zero_fraction": 0.06549072265625,
+      "tanh_saturated_fraction": 0.009613037109375
+    }
+  ],
+  "test": {
+    "nll": 6.129845231771469,
+    "ppl": 459.3650600614231,
+    "token_accuracy": 0.07232666015625,
+    "teacher_forced_exact": 0.0,
+    "target_tokens": 16384
+  },
+  "curve": [
+    {
+      "step": 1,
+      "train_loss": 8.3268461227417,
+      "elapsed_s": 0.07300519700015684,
+      "nll": 8.323271870613098,
+      "ppl": 4118.61355780216,
+      "token_accuracy": 0.010009765625,
+      "teacher_forced_exact": 0.0,
+      "target_tokens": 4096
+    },
+    {
+      "step": 150,
+      "train_loss": 6.940941333770752,
+      "elapsed_s": 10.719951342000059,
+      "nll": 6.986071407794952,
+      "ppl": 1081.4644867206773,
+      "token_accuracy": 0.046630859375,
+      "teacher_forced_exact": 0.0,
+      "target_tokens": 4096
+    },
+    {
+      "step": 300,
+      "train_loss": 6.516347408294678,
+      "elapsed_s": 21.337553276000108,
+      "nll": 6.57468044757843,
+      "ppl": 716.716559242748,
+      "token_accuracy": 0.054443359375,
+      "teacher_forced_exact": 0.0,
+      "target_tokens": 4096
+    },
+    {
+      "step": 450,
+      "train_loss": 6.2668938636779785,
+      "elapsed_s": 32.134902431,
+      "nll": 6.282303631305695,
+      "ppl": 535.0197335231105,
+      "token_accuracy": 0.065185546875,
+      "teacher_forced_exact": 0.0,
+      "target_tokens": 4096
+    },
+    {
+      "step": 600,
+      "train_loss": 5.939469814300537,
+      "elapsed_s": 42.865661864,
+      "nll": 6.174386084079742,
+      "ppl": 480.288076896919,
+      "token_accuracy": 0.06884765625,
+      "teacher_forced_exact": 0.0,
+      "target_tokens": 4096
+    }
+  ]
+}

@@ -5,3 +5,8 @@
 __pycache__/
 *.pyc
 .DS_Store
+.venv/
+benchmarks/gqa_e_pilot/data/*.npy
+benchmarks/gqa_e_pilot/data/*_train.json
+benchmarks/gqa_e_pilot/data/*_val.json
+benchmarks/gqa_e_pilot/data/*_test.json

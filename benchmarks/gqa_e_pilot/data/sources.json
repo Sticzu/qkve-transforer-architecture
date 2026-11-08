@@ -1,0 +1,20 @@
+{
+  "wiki": {
+    "repo": "radlab/wikipedia-pl",
+    "revision": "63a2c8deb4a47f144970d1067008c9d244f13cec",
+    "sampling": "first 5000 records with >300 chars; text capped at 30000 chars"
+  },
+  "books": {
+    "repo": "ArielUW/wolnelektury",
+    "revision": "cfc65a4c42613a6c025399240f6b5e4faae55630",
+    "sampling": "selected works; train authors Alcott/Andersen/Amicis/Verne/Dumas; val Prus; test Conrad"
+  },
+  "files": {
+    "wiki_val.json": "8fca2f94ffd1667e0015442ca303a81e16b11f102113513406c50857a50ac3e5",
+    "books_test.json": "ad08f10087b0903d1280712b4dd816b0de2f3702729500acf1b349eeb454b96d",
+    "wiki_test.json": "73f665d045e6a9563e68a19b055b825e212c2279fecad9b807fee2c0f3ebb0bf",
+    "books_val.json": "d692f864ee7e9c40eb773d0efe32716e51c70f1eb4a522a90f0c75e59ddcc438",
+    "books_train.json": "0efc28e8dfa98afeb454790f12f4cff139d28fba4e6e86ada1717d057c1aaf17",
+    "wiki_train.json": "cd731e0c6ca01b37c0c7458a09ad425fcb3f7199c8989ce0a8b5b6321cb96177"
+  }
+}

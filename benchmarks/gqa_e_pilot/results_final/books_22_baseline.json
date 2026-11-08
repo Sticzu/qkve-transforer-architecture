@@ -1,0 +1,72 @@
+{
+  "task": "books",
+  "seed": 22,
+  "variant": "baseline",
+  "params": 1004608,
+  "steps": 600,
+  "supervised_tokens": 307200,
+  "input_positions": 307200,
+  "wall_seconds_with_validation": 51.84705545299994,
+  "max_gradient_norm": 5.93178129196167,
+  "clipped_steps": 242,
+  "gate_diagnostics": [],
+  "test": {
+    "nll": 5.798210918903351,
+    "ppl": 329.70915550894017,
+    "token_accuracy": 0.0819091796875,
+    "teacher_forced_exact": 0.0,
+    "target_tokens": 16384
+  },
+  "curve": [
+    {
+      "step": 1,
+      "train_loss": 8.33271312713623,
+      "elapsed_s": 0.07837190700001884,
+      "nll": 8.33972418308258,
+      "ppl": 4186.93475475297,
+      "token_accuracy": 0.00048828125,
+      "teacher_forced_exact": 0.0,
+      "target_tokens": 4096
+    },
+    {
+      "step": 150,
+      "train_loss": 6.402639865875244,
+      "elapsed_s": 11.81264955000006,
+      "nll": 6.3006004095077515,
+      "ppl": 544.8989744548641,
+      "token_accuracy": 0.0654296875,
+      "teacher_forced_exact": 0.0,
+      "target_tokens": 4096
+    },
+    {
+      "step": 300,
+      "train_loss": 5.8129496574401855,
+      "elapsed_s": 23.970434022000063,
+      "nll": 5.974567890167236,
+      "ppl": 393.2981163844121,
+      "token_accuracy": 0.0703125,
+      "teacher_forced_exact": 0.0,
+      "target_tokens": 4096
+    },
+    {
+      "step": 450,
+      "train_loss": 5.65758752822876,
+      "elapsed_s": 37.79099422199988,
+      "nll": 5.767098546028137,
+      "ppl": 319.60905507894546,
+      "token_accuracy": 0.0771484375,
+      "teacher_forced_exact": 0.0,
+      "target_tokens": 4096
+    },
+    {
+      "step": 600,
+      "train_loss": 5.580620765686035,
+      "elapsed_s": 51.65180423499987,
+      "nll": 5.679992198944092,
+      "ppl": 292.94714461658333,
+      "token_accuracy": 0.091552734375,
+      "teacher_forced_exact": 0.0,
+      "target_tokens": 4096
+    }
+  ]
+}

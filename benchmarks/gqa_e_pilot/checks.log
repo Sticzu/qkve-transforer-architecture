@@ -1,0 +1,3 @@
+PASS causality, parameter matching, residual identity, gradients {'baseline': 1004608, 'matched': 1029184, 'tanh': 1029184, 'residual': 1029184, 'sin_tanh': 1029184}
+PASS explicit dense causal GQA reference for all gates
+PASS constant-scale control, equal parameter budget
